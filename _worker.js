@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "mrtechke.storr"; // Ganti dengan domain utama kalian
-const serviceName = "TOpPLUG"; // Ganti dengan nama workers kalian
+const rootDomain = "mrtechke.store"; // Ganti dengan domain utama kalian
+const serviceName = "TOpNeTze"; // Ganti dengan nama workers kalian
 const apiKey = "TeydIv8F3DPAGNpw6GWmLR3EWA-9TZYbnhQStFKO"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "irene13a3@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "f944385e56a6f37462cfc9046496739f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -15,7 +15,7 @@ let cachedProxyList = [];
 const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = ["trojan", "vless", "ss"];
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/Project/main/proxyList.txt";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/Unoz/main/proxyList.txt";
 const DOH_SERVER = "https://doh.dns.sb/dns-query";
 const PROXY_HEALTH_CHECK_API = "https://foolbot.azurewebsites.net/api/v1/proxy/check";
 const CONVERTER_URL =
@@ -99,7 +99,7 @@ function getAllConfig(request, hostName, proxyList, page = 0) {
 
     // Build HTML
     const document = new Document(request);
-    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>Nautica</span>");
+    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>NeTTOpze</span>");
     document.addInfo(`Total: ${proxyList.length}`);
     document.addInfo(`Page: ${page}/${Math.floor(proxyList.length / PROXY_PER_PAGE)}`);
 
