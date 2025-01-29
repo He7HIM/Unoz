@@ -44,7 +44,7 @@ Kode ini masih perlu banyak perbaikan, jadi silahkan berkontribusi dan berikan P
 
 ## Instant
 Klik tombol di bawah  
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/He7HIM/Project)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/He7HIM/Unoz)
 
 ## Manual
 1. Buat akun cloudflare
@@ -55,7 +55,7 @@ Klik tombol di bawah
 6. Deploy
 7. Buka `https://DOMAIN_WORKER_KALIAN/sub`
 
-- Contoh daftar proxy [proxyList.txt](https://raw.githubusercontent.com/dickymuliafiqri/Nautica/refs/heads/main/proxyList.txt)
+- Contoh daftar proxy [proxyList.txt](https://raw.githubusercontent.com/He7HIM/Unoz/refs/heads/main/proxyList.txt)
 - Contoh reverse proxy [example.com](https://example.com)
 
 ## Cara Aktivasi API
@@ -75,5 +75,5 @@ Berikut cara aktivasinya:
 
 # Footnote
 
-- Hal aneh lain yang saya kerjakan [FoolVPN](https://t.me/foolvpn)
+- Hal aneh lain yang saya kerjakan [FoolVPN](https://t.me/Hub7s)
 - Tanya-tanya -> [Telegram](https://t.me/Hub7s)
